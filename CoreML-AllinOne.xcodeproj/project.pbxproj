@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681B810E1F28258800E14B36 /* VGG16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681B810D1F28258800E14B36 /* VGG16ViewController.swift */; };
+		681B81101F282C0D00E14B36 /* InceptionV3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681B810F1F282C0D00E14B36 /* InceptionV3ViewController.swift */; };
 		687403F31F2781BC001820FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687403F21F2781BC001820FB /* AppDelegate.swift */; };
-		687403F51F2781BC001820FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687403F41F2781BC001820FB /* ViewController.swift */; };
+		687403F51F2781BC001820FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687403F41F2781BC001820FB /* MainViewController.swift */; };
 		687403F81F2781BC001820FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687403F61F2781BC001820FB /* Main.storyboard */; };
 		687403FA1F2781BC001820FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687403F91F2781BC001820FB /* Assets.xcassets */; };
 		687403FD1F2781BC001820FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687403FB1F2781BC001820FB /* LaunchScreen.storyboard */; };
 		687404081F2781BC001820FB /* CoreML_AllinOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687404071F2781BC001820FB /* CoreML_AllinOneTests.swift */; };
 		687404131F2781BC001820FB /* CoreML_AllinOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687404121F2781BC001820FB /* CoreML_AllinOneUITests.swift */; };
+		68F65A5D1F297B0F00543427 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F65A5C1F297B0F00543427 /* CameraViewController.swift */; };
+		68F65A5F1F297C6A00543427 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F65A5E1F297C6A00543427 /* RoundedShadowView.swift */; };
+		68F65A611F297E3B00543427 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F65A601F297E3B00543427 /* RoundedShadowButton.swift */; };
+		68F65A651F297F5700543427 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F65A641F297F5700543427 /* RoundedShadowImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		681B810D1F28258800E14B36 /* VGG16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGG16ViewController.swift; sourceTree = "<group>"; };
+		681B810F1F282C0D00E14B36 /* InceptionV3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InceptionV3ViewController.swift; sourceTree = "<group>"; };
 		687403EF1F2781BC001820FB /* CoreML-AllinOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML-AllinOne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		687403F21F2781BC001820FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		687403F41F2781BC001820FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		687403F41F2781BC001820FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		687403F71F2781BC001820FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		687403F91F2781BC001820FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687403FC1F2781BC001820FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		6874040E1F2781BC001820FB /* CoreML-AllinOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML-AllinOneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		687404121F2781BC001820FB /* CoreML_AllinOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_AllinOneUITests.swift; sourceTree = "<group>"; };
 		687404141F2781BC001820FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F65A5C1F297B0F00543427 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		68F65A5E1F297C6A00543427 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		68F65A601F297E3B00543427 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		68F65A641F297F5700543427 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,10 @@
 		687403F11F2781BC001820FB /* CoreML-AllinOne */ = {
 			isa = PBXGroup;
 			children = (
+				687404211F281BBC001820FB /* Controller */,
+				687404201F281BB3001820FB /* View */,
 				687403F21F2781BC001820FB /* AppDelegate.swift */,
-				687403F41F2781BC001820FB /* ViewController.swift */,
+				68F65A5B1F29784200543427 /* Resources */,
 				687403F61F2781BC001820FB /* Main.storyboard */,
 				687403F91F2781BC001820FB /* Assets.xcassets */,
 				687403FB1F2781BC001820FB /* LaunchScreen.storyboard */,
@@ -123,6 +137,34 @@
 				687404141F2781BC001820FB /* Info.plist */,
 			);
 			path = "CoreML-AllinOneUITests";
+			sourceTree = "<group>";
+		};
+		687404201F281BB3001820FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68F65A5E1F297C6A00543427 /* RoundedShadowView.swift */,
+				68F65A601F297E3B00543427 /* RoundedShadowButton.swift */,
+				68F65A641F297F5700543427 /* RoundedShadowImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		687404211F281BBC001820FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				687403F41F2781BC001820FB /* MainViewController.swift */,
+				681B810D1F28258800E14B36 /* VGG16ViewController.swift */,
+				681B810F1F282C0D00E14B36 /* InceptionV3ViewController.swift */,
+				68F65A5C1F297B0F00543427 /* CameraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68F65A5B1F29784200543427 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687403F51F2781BC001820FB /* ViewController.swift in Sources */,
+				68F65A611F297E3B00543427 /* RoundedShadowButton.swift in Sources */,
+				681B810E1F28258800E14B36 /* VGG16ViewController.swift in Sources */,
+				68F65A5D1F297B0F00543427 /* CameraViewController.swift in Sources */,
+				68F65A5F1F297C6A00543427 /* RoundedShadowView.swift in Sources */,
+				68F65A651F297F5700543427 /* RoundedShadowImageView.swift in Sources */,
+				687403F51F2781BC001820FB /* MainViewController.swift in Sources */,
 				687403F31F2781BC001820FB /* AppDelegate.swift in Sources */,
+				681B81101F282C0D00E14B36 /* InceptionV3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28YWGUN639;
 				INFOPLIST_FILE = "CoreML-AllinOne/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.familyplay.CoreML-AllinOne";
@@ -432,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28YWGUN639;
 				INFOPLIST_FILE = "CoreML-AllinOne/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.familyplay.CoreML-AllinOne";
@@ -518,6 +568,7 @@
 				687404191F2781BC001820FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6874041A1F2781BC001820FB /* Build configuration list for PBXNativeTarget "CoreML-AllinOneTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +577,7 @@
 				6874041C1F2781BC001820FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6874041D1F2781BC001820FB /* Build configuration list for PBXNativeTarget "CoreML-AllinOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +586,7 @@
 				6874041F1F2781BC001820FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
